@@ -1,14 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <testPage></testPage>
 </template>
 
 <script>
-
-export default {
-  name: 'App',
-  components: {
+  import testPage from './components/test-page.vue'
+  export default {
+    name: 'App',
+    components: {
+      testPage
+    }
   }
-}
 </script>
 
 <style>
