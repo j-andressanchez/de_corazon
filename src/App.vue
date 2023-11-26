@@ -1,25 +1,28 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <testPage></testPage>
-</template>
+  <template>
+    <img alt="Vue logo" src="./assets/logo.png" style="width: 150px; margin: 30px;">
+    <mainPage></mainPage>
+  </template>
 
 <script>
-  import testPage from './components/test-page.vue'
+  import mainPage from './components/main-page.vue'
   export default {
     name: 'App',
     components: {
-      testPage
+      mainPage
     }
   }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  * {
+    background-color: #F0E0EF;
+  }
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
