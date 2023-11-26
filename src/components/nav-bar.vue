@@ -24,36 +24,38 @@
   
   <style scoped>
 .custom-navbar {
-  background-color: #fadde2;
-  margin: 0 auto; /* Centra la barra en la pantalla */
-  margin-top: 3px;
-  margin-bottom: 30px;
-  padding: 0;
-  height: 40px;
-  width: 60%;
-  display: flex;
-  justify-content: space-around; /* Distribuye las pestañas de manera uniforme */
+    background-color: #fadde2;
+    margin: 0 auto;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    padding: 0;
+    height: 40px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .custom-navbar .nav-link {
-  border: solid;
-  background-color: #ffc0cb;
-  padding: 10px 15px; /* Ajusta el espaciado interno de la pestaña */
-  color: #692166;
-  border-radius: 0 0 10px 10px; 
-  flex: 1; /* Hace que cada pestaña ocupe la misma cantidad de espacio */
-  text-align: center; /* Centra el texto horizontalmente */
+    border-color: #692166;
+    border: solid;
+    border-width: 1px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    color: #692166;
+    border-radius: 0 0 10px 10px; 
+    flex: 1;
+    text-align: center;
 }
 
 .custom-navbar .nav-link.active {
-  background-color: #eb4ece; /* Color de fondo al estar activo */
-  border-color: #ff00ff; /* Borde de color fucsia */
-  color: #ffffff !important; /* Usa !important para sobrescribir estilos predeterminados */
+    background-color: #ff66b2;
+    border-color: #692166;
+    color: #ffffff;
 }
 
 .custom-navbar .nav-link:hover {
-  background-color: #ff66b2; /* Color de fondo al hacer hover */
-  border-color: #ff00ff; /* Borde de color fucsia en hover */
-  color: #ffffff !important; /* Usa !important para sobrescribir estilos predeterminados */
+    background-color: #ff66b2;
+    border-color: #692166;
+    color: #ffffff;
 }
 </style>
