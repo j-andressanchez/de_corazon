@@ -12,6 +12,7 @@
         return {
         tabs: [
             {label: 'Home', to: '/home'},
+            {label: 'Recetas', to: '/Recetas'},
             {label: 'Calculadora', to: '/calculadora'},
             {label: 'Tablas', to: '/tablas'},
             {label: 'Compras', to: '/Compras'},
